@@ -31,6 +31,7 @@ import { indexPack } from './api/indexPack.js'
 import { init } from './api/init.js'
 import { isDescendent } from './api/isDescendent.js'
 import { isIgnored } from './api/isIgnored.js'
+import { listCommits } from './api/listCommits.js'
 import { listBranches } from './api/listBranches.js'
 import { listFiles } from './api/listFiles.js'
 import { listNotes } from './api/listNotes.js'
@@ -102,6 +103,7 @@ export {
   init,
   isDescendent,
   isIgnored,
+  listCommits,
   listBranches,
   listFiles,
   listNotes,
@@ -172,6 +174,7 @@ export default {
   init,
   isDescendent,
   isIgnored,
+  listCommits,
   listBranches,
   listFiles,
   listNotes,
